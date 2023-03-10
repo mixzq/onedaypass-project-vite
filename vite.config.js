@@ -8,6 +8,6 @@ export default defineConfig({
   erver: {
     open: true,
   },
-  plugins: [reactRefresh()],
+  plugins1: [reactRefresh()],
   base: "",
 });

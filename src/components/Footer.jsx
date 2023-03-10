@@ -20,12 +20,12 @@ const FooterStyle = styled.div`
   .footer {
     background-color: rgba(221, 223, 218, 0.7);
     width: 100vw;
-    height: 100px;
+    height: 60px;
     bottom: 0%;
   }
   p {
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
 
     font-size: x-small;
     color: #ffffff;

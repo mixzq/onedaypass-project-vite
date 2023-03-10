@@ -2503,30 +2503,33 @@ export default Dbus;
 //style
 const TOP = styled.div`
   * {
-    /* border: 3px solid; */
+    border: px solid;
     font-family: "Roboto Mono", monospace;
     background: transparent;
   }
   .container {
+    margin-top: 5vh;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    padding: 0 0;
+    width: 100vw;
 
     .sign {
+      display: flex;
+      width: 40vw;
       margin: 2rem;
-      min-width: 40vw;
+
+      flex-grow: 1;
+
       padding: 0rem 3rem 2rem 0rem;
+      img {
+        width: 95%;
+      }
     }
     .movingBus {
       width: 55vw;
       overflow: hidden;
       padding: 3rem;
-      flex-grow: 1;
       display: flex;
-      flex-flow: row-reverse;
+      /* flex-flow: row-reverse; */
       align-items: flex-end;
       justify-content: flex-start;
       flex-direction: column;
@@ -2537,9 +2540,10 @@ const TOP = styled.div`
       }
       .title-Pc {
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 1.5vw;
         p {
           font-style: italic;
+          font-weight: 300;
         }
       }
 
@@ -2568,8 +2572,8 @@ const TOP = styled.div`
         position: relative;
         top: 23%;
         background: url(${tree});
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 65%;
         background-repeat: no-repeat;
         animation: treeMove 5s linear infinite;
       }
@@ -2607,7 +2611,14 @@ const TOP = styled.div`
     .container {
       flex-direction: column;
       column-gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-flow: row wrap;
       .sign {
+        margin: 2rem;
+        min-width: 40vw;
+        padding: 0rem 3rem 2rem 0rem;
         .logo {
           padding: 0;
         }
