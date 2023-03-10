@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+
+  /* outline: solid red 2px; */
+}
+body {
+  background-color: #fce6d0;
+}
+
+/* All the animations Keyframes */
+@keyframes wheel {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+/* animation for car */
+@keyframes shakeverticalCar {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  90% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+}
+/* animation for passenger */
+@keyframes shakeverticalPassenger {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-1.5px);
+    transform: translateY(-1.5px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  80% {
+    -webkit-transform: translateY(1.5px);
+    transform: translateY(1.5px);
+  }
+  90% {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+  }
+}
+/* background animation */
+@keyframes treeMove {
+  0% {
+    -webkit-transform: translateX(-100vw);
+  }
+
+  100% {
+    -webkit-transform: translateX(100vw);
+  }
+}
+@keyframes cloundMove {
+  0% {
+    -webkit-transform: translateX(0vw);
+  }
+
+  100% {
+    -webkit-transform: translateX(100vw);
+  }
+}
+@keyframes sMan {
+  0% {
+    -webkit-transform: translateX(60vw);
+  }
+  20% {
+    -webkit-transform: translateX(20vw);
+  }
+  30% {
+    -webkit-transform: translateX(22vw);
+  }
+
+  80% {
+    -webkit-transform: translateX(40vw);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    -webkit-transform: translateY(-15rem);
+  }
+}
+/* animation for ticket booth and price sign */
+
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  41.99% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  43.01% {
+    opacity: 1;
+  }
+  45.99% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 0;
+  }
+  46.9% {
+    opacity: 0;
+  }
+  46.91% {
+    opacity: 1;
+  }
+  51.99% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0;
+  }
+  52.8% {
+    opacity: 0;
+  }
+  52.81% {
+    opacity: 1;
+  }
+}
