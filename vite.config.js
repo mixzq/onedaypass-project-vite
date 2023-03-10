@@ -10,4 +10,7 @@ export default defineConfig({
   },
   plugins1: [reactRefresh()],
   base: "",
+  server: {
+    host: "0.0.0.0",
+  },
 });

@@ -895,16 +895,16 @@ const Style3 = styled.div`
               font-style: italic;
               font-size: 0.8rem;
               font-weight: 400;
+              .price {
+                margin: 1rem 0;
+                border-radius: 1.5rem;
+                padding: 0.2rem 1rem;
+                color: #fdfdfd;
+                font-size: 4vw;
+                font-weight: 400;
+                background-color: #000000;
+              }
             }
-          }
-          .price {
-            margin: 1rem 0;
-            border-radius: 1.5rem;
-            padding: 0.2rem 1rem;
-            color: #fdfdfd;
-            font-size: 1rem;
-            font-weight: 400;
-            background-color: black;
           }
         }
       }
