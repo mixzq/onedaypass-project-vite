@@ -1,6 +1,6 @@
 # onedaypass-project-vite
 
-https://onedaypass.netlify.app/
+
 
 Use Create-reat-app +styled component 
 
