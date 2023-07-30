@@ -19,7 +19,7 @@ const FooterStyle = styled.div`
   }
   .footer {
     background-color: rgba(221, 223, 218, 0.7);
-    width: 100vw;
+    width: 100%;
     height: 60px;
     bottom: 0%;
   }
