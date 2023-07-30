@@ -2510,7 +2510,7 @@ const TOP = styled.div`
   .container {
     margin-top: 5vh;
     display: flex;
-    width: 100vw;
+    width: 100%;
 
     .sign {
       display: flex;
